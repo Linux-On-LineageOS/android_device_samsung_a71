@@ -37,3 +37,4 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/samsung/a71/a71-vendor.mk)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
